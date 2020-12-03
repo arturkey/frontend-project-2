@@ -1,0 +1,109 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color: hsl(204, 43%, 93%);
+}
+.container{
+  margin: 2.5% 2.5% 0 2.5%;
+}
+.header{
+  font-family: 'karla';
+
+  text-align: left;
+  display: block;
+  background-color: #fff;
+  padding: 5% 5%;
+
+}
+.header-main{
+  display: block;
+  color: hsl(179, 62%, 43%);
+  font-size: 30px;
+  margin-top: 40px;
+
+}
+.header-sub{
+  display: block;
+  color: hsl(71, 73%, 54%);
+  font-weight: 400;
+  font-size: 1.7rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  line-height:1.5;
+}
+.header-sub2{
+  display: block;
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+  font-size: 1.5rem;
+  width:95%;
+  line-height: 1.5;
+
+}
+.container-fluid{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.main-info{
+  flex: 50%;
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+  text-align: left;
+  padding-left:8%;
+  line-height: 3rem;
+
+}
+.main2{
+  text-align: left;
+  flex:50%;
+  display:inline-block;
+  background-color: hsl(179, 62%, 45%);
+  color:#fff;
+  padding-left:8%;
+
+}
+
+
+li{
+  list-style-type: none;
+  line-height:1.5rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing:1px;
+
+}
+h2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+b{
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+h4{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.btn{
+  background-color: hsl(71, 73%, 54%);
+  font-size: 1.5rem;
+  padding: 10px 150px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+h1{
+  font-weight: 700;
+}
+h3{
+  font-weight: 400;
+}
